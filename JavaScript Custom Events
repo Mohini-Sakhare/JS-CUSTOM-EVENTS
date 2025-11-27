@@ -1,0 +1,11 @@
+## JavaScript Custom Events :-
+Custom events are events created by developers to perform specific actions. 
+They allow different parts of an application to communicate without being tightly connected. 
+These events can be linked to elements or objects, and when triggered, they run certain tasks.
+
+** How to Create and Trigger Custom Events?
+To create and trigger a custom event in JavaScript, we typically follow these steps:
+
+Create an Event: Use the Event constructor to create a new event.
+Add an Event Listener: Attach an event listener to an element or document to listen for the custom event.
+Dispatch the Event: Use the dispatchEvent() method to trigger the event when needed.

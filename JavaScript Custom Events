@@ -9,3 +9,11 @@ To create and trigger a custom event in JavaScript, we typically follow these st
 Create an Event: Use the Event constructor to create a new event.
 Add an Event Listener: Attach an event listener to an element or document to listen for the custom event.
 Dispatch the Event: Use the dispatchEvent() method to trigger the event when needed.
+
+Syntax:-
+const eventName = new Event('eventName');
+const eventWithData = new CustomEvent('eventWithData', {
+    detail: {
+        key: 'value'
+    }
+});

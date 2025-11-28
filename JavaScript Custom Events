@@ -17,3 +17,11 @@ const eventWithData = new CustomEvent('eventWithData', {
         key: 'value'
     }
 });
+
+** Why Use Custom Events?
+Custom events provide several advantages:
+
+Modularity: Custom events help to separate different parts of the application, making it more modular and easier to maintain.
+Flexibility: Developers can define their own events to handle specific actions or behaviors that standard events do not cover.
+Communication: Custom events allow different components or modules of an application to communicate with each other in a loosely-coupled way.
+

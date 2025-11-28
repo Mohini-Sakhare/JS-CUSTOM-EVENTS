@@ -31,3 +31,16 @@ Modular Applications: In complex applications, different parts of the system can
 Form Validation: Custom events can be used to trigger validation on form fields whenever the value of an input changes.
 Animations and Transitions: Custom events are useful in animation libraries where one animation can trigger another through custom events.
 Inter-Component Communication: In frameworks like React or Vue, custom events allow child components to send messages to parent components or vice versa.
+
+const startProcessEvent = new Event('startProcess');
+
+document.addEventListener('startProcess', () => {
+    console.log('Custom event "startProcess" has been triggered!');
+    alert('Process Started!');
+});
+
+const startButton = document.getElementById('startButton');
+startButton.addEventListener('click', () => {
+    console.log('Button clicked. Triggering custom event...');
+    document.dispatchEvent(startProcessEvent);
+});

@@ -46,3 +46,5 @@ startButton.addEventListener('click', () => {
 });
 
 output:-
+Button clicked. Triggering custom event...
+Custom event "startProcess" has been triggered!

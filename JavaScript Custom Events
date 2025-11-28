@@ -44,3 +44,5 @@ startButton.addEventListener('click', () => {
     console.log('Button clicked. Triggering custom event...');
     document.dispatchEvent(startProcessEvent);
 });
+
+output:-
